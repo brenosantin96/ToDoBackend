@@ -5,6 +5,5 @@ API RESTFUL CRIADA PARA ARMAZENAR TAREFAS A SEREM CONCLUIDAS NO BANCO DE DADOS.
 2) Ir nas variáveis de ambiente seguindo o caminho: Propriedades do computador > Configurações avançadas do sistema > Variáveis de ambiente > Clicar em cima de Path, Adicionar novo > Colocar o diretório do MongoDB > C:\Program Files\MongoDB\Server\(Suaversao)\bin. Fazer isso para executar o mongodb com o atalho mongod.
 3) Instalar o node no site oficial: https://nodejs.org/en/download/
 4) Abrir o CMD no diretório e usar npm install para baixar todas dependencias necessárias;
-5) Usar o comando "md \data\db" e depois "mongod --dbpath c:\data" para executar o banco de dados mongo;
 6) Usar o comando "npm run dev" para executar o banco de dados na máquina local;
 7) Para certificar que está tudo certo, você pode acessar a API usando "localhost:3003/todos" para usar o método GET e pegar as tarefas;
